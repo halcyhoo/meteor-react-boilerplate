@@ -7,9 +7,10 @@ Here's a quick demo of how that works and a jumping off point for starting new p
 ## Getting up and running
 
 1. Clone the repo and go to the directory in your terminal
-2. Run `meteor add` and `meteor npm i`
-3. Run `npm run start`
-4. And you are all set!
+2. Copy the `settings-example.json` file to `settings.json` and fill in your credentials.
+3. Run `meteor add` and `meteor npm i`
+4. Run `npm run start`
+5. And you are all set!
 
 ## Ingredients
 
