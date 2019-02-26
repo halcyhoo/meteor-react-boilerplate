@@ -1,0 +1,33 @@
+{
+  "name": "MeteorReactBoilerplate",
+  "private": true,
+  "scripts": {
+    "start": "meteor run --settings settings.json",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "aws-sdk": "^2.409.0",
+    "bcrypt": "^3.0.2",
+    "lodash": "^4.17.11",
+    "meteor-node-stubs": "^0.4.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.0",
+    "react-bootstrap": "^0.32.4",
+    "react-csv": "^1.1.1",
+    "react-dom": "^16.5.0",
+    "react-masonry-component": "^6.2.1",
+    "react-mounter": "^1.2.0",
+    "react-recaptcha": "^2.3.10",
+    "react-select": "^2.4.1",
+    "react-toastify": "^4.4.3",
+    "simpl-schema": "^1.5.3",
+    "validator": "^10.9.0"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.jsx",
+      "server": "server/main.js"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+html, body, #react-root, #react-root > div {
+  height: 100%;
+}
+
+.content-area {
+  min-height: 100%;
+  padding-bottom: 50px;
+}
+
+.main-content {
+  padding-top: 20px;
+}
+
+.page {
+  padding-bottom: 20px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.vertical-align {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.punch-text {
+  background: -moz-linear-gradient(45deg, #ef1bc8 0%, #4c0e41 90%);
+  background: -webkit-linear-gradient(45deg, #ef1bc8 0%, #4c0e41 90%);
+  background: linear-gradient(45deg, #ef1bc8 0%, #4c0e41 90%);
+  text-shadow: inset 0 0 10px rgba(0,0,0,1);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-fill-color: transparent;
+}

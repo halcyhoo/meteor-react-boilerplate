@@ -1,0 +1,21 @@
+form.auth {
+  input {
+    margin-bottom: 10px;
+  }
+
+  .show-password {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .g-recaptcha {
+    margin-bottom: 10px;
+
+    @media only screen and (max-width: 768px) {
+      -webkit-transform:scale(0.77);
+      transform:scale(0.77);
+      -webkit-transform-origin:0 0;
+      transform-origin:0 0;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "public": {
+    "persistent_session": {
+      "default_method": "persistent"
+    },
+    "apiKeys": {
+      "recaptcha": ""
+    }
+  },
+  "apiKeys": {
+    "recaptcha": "",
+    "s3": {
+      "key": "",
+      "secret": "",
+      "bucket": "",
+      "region": ""
+    }
+  }
+}

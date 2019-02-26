@@ -1,0 +1,52 @@
+.profile {
+  .avatar {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+  }
+
+  .avatar-holder {
+    text-align: center;
+    .btn {
+      margin: 10px auto;
+    }
+  }
+
+  &.uploadAvatar {
+
+    .image-group {
+      text-align: center;
+
+      img {
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      input[type="file"] {
+        display: none;
+      }
+
+      .btn {
+        margin-top: 10px;
+      }
+    }
+
+  }
+
+  &.view {
+    @media only screen and (max-width: 768px) {
+      text-align: center;
+    }
+
+    .btn {
+      @media only screen and (max-width: 768px) {
+        margin-top: 10px;
+      }
+    }
+  }
+}
