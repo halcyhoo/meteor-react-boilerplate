@@ -9,7 +9,7 @@
     "@babel/runtime": "^7.0.0",
     "aws-sdk": "^2.409.0",
     "bcrypt": "^3.0.2",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.21",
     "meteor-node-stubs": "^0.4.1",
     "prop-types": "^15.6.2",
     "react": "^16.5.0",
