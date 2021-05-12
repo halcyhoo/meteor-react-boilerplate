@@ -21,7 +21,7 @@
     "react-recaptcha": "^2.3.10",
     "react-select": "^2.4.1",
     "react-toastify": "^4.4.3",
-    "simpl-schema": "^1.5.3",
+    "simpl-schema": "^1.10.2",
     "validator": "^10.9.0"
   },
   "meteor": {
